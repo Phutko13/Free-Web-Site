@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Web Site Murk Up</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/af6bc85f41.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./images/logo.PNG" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="./registration.html">Registration</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>JS / React / Angular / TS / JSON Full-Stack Web Developer</p>
+                <h1>Hi, I'm <span>Nika</span><br> Phutkaradze From Georgia, Bat</h1>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./images/user.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>I am Nika Phutkaradze, 21 years old student. I am studying in Batumi's Shota Rustaveli State
+                        University. My profession is Web Development. At the same time I am taking Web Development
+                        courses in IT Step Academy. After finishing this course my goal is to be Middle Developer.
+                        I know some computer languages, such as C++,C#,Java,Phyton & Java Script. I also have
+                        certificate from American Corner for C# language.
+                        I know also following topics but as a Junior level - React,Angular,TS,JSON. Ukrainian company
+                        AXON helped to get this kind of experience for 3 months.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>JS / React / Angular</span><br> Front Development</li>
+                            <li><span>TS / JSON</span><br> Back-end Development</li>
+                            <li><span>C#</span><br> Web App Development</li>
+                            <li><span>C++</span><br> Gaming Development</li>
+                            <li><span>Java</span><br> Building Android Apps</li>
+                            <li><span>Python</span><br> Web Scraping</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Axon Company</span><br> Front Development HTML,CSS, JS, React</li>
+                            <li><span>University</span><br> Building Mathematical programs</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2019-2023</span><br> Batumi Shota Rustaveli State University </li>
+                            <li><span>2021-2022</span><br> Axon Company</li>
+                            <li><span>2022-2023</span><br> IT Step Academy</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Service</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque a esse aut officia dicta.
+                        Inventore id eius maxime a praesentium modi velit officia! Natus, hic.</p>
+                    <a href="#" class="learn">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-gamepad"></i>
+                    <h2>Gaming Development</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque a esse aut officia dicta.
+                        Inventore id eius maxime a praesentium modi velit officia! Natus, hic.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Development</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque a esse aut officia dicta.
+                        Inventore id eius maxime a praesentium modi velit officia! Natus, hic.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./images/imagetwo.jpg">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit, autem ipsum? Perferendis
+                            aliquam qui sequi quam, doloremque odit!</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="./images/imageone.jpg">
+                    <div class="layer">
+                        <h3>Form App in React, JSON</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit, autem ipsum? Perferendis
+                            aliquam qui sequi quam, doloremque odit!</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/imagethree.jpg">
+                    <div class="layer">
+                        <h3>Calculator in JS</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit, autem ipsum? Perferendis
+                            aliquam qui sequi quam, doloremque odit!</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+
+    <div class="contact" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> Phutko13@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i></i>+995-555-540-300</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="./cv/cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2 ">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright Phutko. Made with by easy Tutorials</p>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
